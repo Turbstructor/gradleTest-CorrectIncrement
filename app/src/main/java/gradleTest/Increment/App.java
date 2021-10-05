@@ -23,16 +23,12 @@ public class App {
             while(n < 0)
             {
                 total += n;
-                n -= 1;
+                n += 1;
             }
         }
 
         return total;
     }
 
-    public static void main(String[] args) {
-        int num = 10;
-
-        System.out.println("Sum of numbers from 1 to 10 is " + getSum(num));
-    }
+    public static void main(String[] args) {}
 }
